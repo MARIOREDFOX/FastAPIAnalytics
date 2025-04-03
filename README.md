@@ -1,0 +1,2 @@
+# FastAPIAnalytics
+Experiencing FastAPI
