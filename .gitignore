@@ -1,0 +1,63 @@
+# Byte-compiled / cached files
+__pycache__/
+*.py[cod]
+*.so
+*.pyo
+*.pyd
+*.pdb
+
+# Virtual environments
+venv/
+env/
+.fastapiana_env/
+
+# Dependency management
+Pipfile
+Pipfile.lock
+poetry.lock
+requirements.txt
+
+# Logs & Debugging
+logs/
+*.log
+*.out
+*.err
+
+# Pytest and test coverage
+.coverage
+.cache/
+htmlcov/
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Database files
+*.sqlite3
+*.db
+*.sql
+
+# Environment variables
+.env
+.env.*
+.envrc
+
+# Docker & Deployment
+docker-compose.override.yml
+
+# Static & media files (if applicable)
+staticfiles/
+media/
+
+# Ignore specific FastAPI files
+pass  # If you have a file named "pass" you want to ignore
